@@ -1,0 +1,58 @@
+body {
+	background-image: url("background.gif");
+}
+
+#body {
+	border:12px solid white; 
+	background-color: white;
+	margin-left:10%;
+	margin-right:10%;
+}
+#head {
+	text-align: right;
+	background-color:#A8F0F0; 
+}
+
+#middle {
+	text-align: right;
+	font-size: 14pt; 
+}
+
+#body1 {
+	border: 4px solid #C2E9E9;
+	background-color: #E8FBFB;
+	overflow: hidden;
+	padding:  5px;
+	margin-top: 10px;
+
+}
+
+#body2 {
+    border:4px solid #C2E9E9;
+	background-color: #E8FBFB; 
+	overflow: hidden;
+	padding:  5px;
+	margin-top: 10px;
+}
+
+.date{
+	border-bottom:3px dashed lightblue; 
+}
+img{
+	float:right;
+}
+
+div.Friends {
+	border:4px solid #40E0D0;
+	background-color:#A8F0F0;
+	margin-top: 10px;
+	float:left;
+}
+
+div.column2 {
+		overflow: hidden;
+}
+
+p:hover, h1:hover, h2:hover, img:hover, a:hover {
+  background-color: yellow;
+}
